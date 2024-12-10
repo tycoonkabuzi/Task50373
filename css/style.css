@@ -33,6 +33,27 @@ textarea {
 label[for*="male"] {
   display: inline;
 }
-input[type="radio"] {
-  width: 2vh;
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+label {
+  margin-bottom: 1vh;
+  display: block;
+}
+label[for="agreement"] {
+  display: inline;
+}
+label,
+input {
+  vertical-align: middle;
+}
+input[type="submit"] {
+  background-color: #1ac056;
+  width: 10vh;
+  height: 5vh;
+  font-weight: 800;
+}
+input[type="submit"]:hover {
+  background-color: #46e881;
 }
