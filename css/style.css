@@ -5,6 +5,7 @@ form {
   width: 50%;
   height: auto;
   color: white;
+  padding: 2vh;
 }
 label {
   display: block;
@@ -15,6 +16,9 @@ textarea {
   background-color: #2b4a64;
   border: none;
   outline: none;
+  width: 300px;
+  height: 4vh;
+  color: white;
 }
 input:focus,
 select:focus,
@@ -22,4 +26,13 @@ textarea:focus {
   background-color: #4e708c;
   border: #ffffff solid 1px;
   border-radius: 0;
+}
+textarea {
+  height: 13vh;
+}
+label[for*="male"] {
+  display: inline;
+}
+input[type="radio"] {
+  width: 2vh;
 }
