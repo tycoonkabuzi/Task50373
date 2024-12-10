@@ -1,3 +1,25 @@
 body {
+}
+form {
   background-color: #213b50;
+  width: 50%;
+  height: auto;
+  color: white;
+}
+label {
+  display: block;
+}
+input,
+select,
+textarea {
+  background-color: #2b4a64;
+  border: none;
+  outline: none;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  background-color: #4e708c;
+  border: #ffffff solid 1px;
+  border-radius: 0;
 }
