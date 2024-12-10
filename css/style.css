@@ -19,6 +19,7 @@ textarea {
   width: 300px;
   height: 4vh;
   color: white;
+  margin-bottom: 1vh;
 }
 input:focus,
 select:focus,
@@ -53,6 +54,7 @@ input[type="submit"] {
   width: 10vh;
   height: 5vh;
   font-weight: 800;
+  margin-top: 2vh;
 }
 input[type="submit"]:hover {
   background-color: #46e881;
